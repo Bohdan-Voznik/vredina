@@ -9,13 +9,15 @@ import { PersistGate } from 'redux-persist/integration/react';
 
 import { store, persistor } from 'redux/store';
 
+import './assets/fonts/JejuMyeongjo/JejuMyeongjo-Regular.woff2';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={<h1>loading///</h1>} persistor={persistor}>
-        <BrowserRouter basename="/goit-react-hw-08-phonebook/">
+        <BrowserRouter basename="/">
           <App />
         </BrowserRouter>
       </PersistGate>

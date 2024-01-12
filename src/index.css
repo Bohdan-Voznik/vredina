@@ -1,12 +1,25 @@
 @import-normalize; /* bring in normalize.css styles */
 
+@font-face {
+  font-family: "JejuMyeongjo";
+  src: local("JejuMyeongjo"),
+  url("./assets/fonts/JejuMyeongjo/JejuMyeongjo-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: JejuMyeongjo, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root{
+  height: 100%;
 }
 
 code {
@@ -42,4 +55,10 @@ li {
 a {
   text-decoration: none;
   color: #000000;
+}
+
+@media (hover: hover) {
+  .hovered:hover {
+    opacity: 0.7;
+  }
 }
