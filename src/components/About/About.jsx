@@ -1,44 +1,5 @@
 import { Container } from 'components/Container/Container';
-import {
-  AboutStyled,
-  ProjectList,
-  Text,
-  Title,
-  ServicesList,
-} from './About.styled';
-
-const DATA = [
-  {
-    text: 'Logos',
-    src: 'https://fon.litrelax.ru/uploads/posts/2023-01/thumbs/1673832807_foni-club-p-kartinki-na-rabochii-stol-sneg-idet-2.jpg',
-    alt: 'test',
-  },
-  {
-    text: 'Branding',
-    src: 'https://fon.litrelax.ru/uploads/posts/2023-01/thumbs/1673832807_foni-club-p-kartinki-na-rabochii-stol-sneg-idet-2.jpg',
-    alt: 'test',
-  },
-  {
-    text: 'Custom Illustrations',
-    src: 'https://fon.litrelax.ru/uploads/posts/2023-01/thumbs/1673832807_foni-club-p-kartinki-na-rabochii-stol-sneg-idet-2.jpg',
-    alt: 'test',
-  },
-  {
-    text: 'Illustrations for books',
-    src: 'https://fon.litrelax.ru/uploads/posts/2023-01/thumbs/1673832807_foni-club-p-kartinki-na-rabochii-stol-sneg-idet-2.jpg',
-    alt: 'test',
-  },
-  {
-    text: 'Business cards and more',
-    src: 'https://fon.litrelax.ru/uploads/posts/2023-01/thumbs/1673832807_foni-club-p-kartinki-na-rabochii-stol-sneg-idet-2.jpg',
-    alt: 'test',
-  },
-  {
-    text: 'Websites from scratch',
-    src: 'https://fon.litrelax.ru/uploads/posts/2023-01/thumbs/1673832807_foni-club-p-kartinki-na-rabochii-stol-sneg-idet-2.jpg',
-    alt: 'test',
-  },
-];
+import { AboutStyled, Text, Title } from './About.styled';
 
 export const About = () => {
   return (

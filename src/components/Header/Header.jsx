@@ -8,7 +8,6 @@ import {
   NavigationLink,
 } from './Header.styled';
 import { Container } from '../Container/Container';
-import classNames from 'classnames';
 
 const DATA = [
   { text: 'Home', href: '/' },
