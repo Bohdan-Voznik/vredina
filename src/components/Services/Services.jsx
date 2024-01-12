@@ -1,11 +1,5 @@
 import { Container } from 'components/Container/Container';
-import {
-  ServicesStyled,
-  ProjectList,
-  Text,
-  Title,
-  ServicesList,
-} from './Services.styled';
+import { ServicesStyled, Title, ServicesList } from './Services.styled';
 
 const DATA = [
   {
