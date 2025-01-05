@@ -5,9 +5,8 @@ import { LayoutStyled } from './Layout.styled';
 export const Layout = ({ children }) => {
   return (
     <LayoutStyled>
-      <Header />
       <div className="main">{children}</div>
-      <Footer />
+      {/*<Footer />*/}
     </LayoutStyled>
   );
 };

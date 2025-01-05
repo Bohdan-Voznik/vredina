@@ -1,42 +1,25 @@
 import { useLocation } from 'react-router-dom';
 
-import {
-  HeaderStyled,
-  Title,
-  NavigationList,
-  HeaderContent,
-  NavigationLink,
-} from './Header.styled';
+import { HeaderStyled } from './Header.styled';
 import { Container } from '../Container/Container';
 
-const DATA = [
-  { text: 'Home', href: '/' },
-  { text: 'Services', href: '/services' },
-  { text: 'About', href: '/about' },
-  { text: 'Contacts', href: '/contacts' },
-];
+import logoImg from '../../img/logo.png';
+import bannerImg from '../../img/banner.png';
 
 export const Header = () => {
-  const { pathname } = useLocation();
-
-  console.log(pathname);
   return (
     <HeaderStyled>
       <Container className="container">
-        <HeaderContent>
-          <Title>
-            Design <br />
-            for you
-          </Title>
+        <div className="header__content">
+          <div className="header__logo">
+            <img src={logoImg} alt="logo" />
 
-          <NavigationList>
-            {DATA.map(({ text, href }, index) => (
-              <NavigationLink to={href} className="hovered">
-                {text}
-              </NavigationLink>
-            ))}
-          </NavigationList>
-        </HeaderContent>
+            <p>Göttingen · Kassel · Fulda · Eisenach</p>
+          </div>
+          <div className="header__banner">
+            <img src={bannerImg} alt="logo" />
+          </div>
+        </div>
       </Container>
     </HeaderStyled>
   );
