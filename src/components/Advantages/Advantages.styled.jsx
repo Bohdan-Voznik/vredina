@@ -1,7 +1,5 @@
 import styled from '@emotion/styled';
 
-import img from '../../assets/images/background.webp';
-
 export const AdvantagesStyled = styled.section`
   position: relative;
   padding-bottom: 32px;

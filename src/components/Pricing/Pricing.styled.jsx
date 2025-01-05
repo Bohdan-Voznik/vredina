@@ -1,7 +1,5 @@
 import styled from '@emotion/styled';
 
-import img from '../../assets/images/background.webp';
-
 export const PricingStyled = styled.section`
   .pricing__content {
     position: relative;

@@ -1,7 +1,5 @@
 import styled from '@emotion/styled';
 
-import img from '../../assets/images/background.webp';
-
 export const GalleryStyled = styled.section`
   padding: 32px 0;
   ul {
