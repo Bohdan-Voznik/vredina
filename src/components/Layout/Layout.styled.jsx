@@ -1,7 +1,4 @@
 import styled from '@emotion/styled';
-
-import img from '../../assets/images/background.webp';
-
 export const LayoutStyled = styled.main`
   min-height: 100vh;
   display: flex;
