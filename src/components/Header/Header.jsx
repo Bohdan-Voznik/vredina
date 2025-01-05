@@ -1,5 +1,3 @@
-import { useLocation } from 'react-router-dom';
-
 import { HeaderStyled } from './Header.styled';
 import { Container } from '../Container/Container';
 

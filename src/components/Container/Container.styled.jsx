@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
   width: 100%;
-  outline: 1px solid red;
+  //outline: 1px solid red;
 
   max-width: 1440px;
 

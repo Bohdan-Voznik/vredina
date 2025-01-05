@@ -1,8 +1,5 @@
 import { AdvantagesStyled } from './Advantages.styled';
 
-import firstImg from '../../img/photo_1.jpg';
-import secondImg from '../../img/photo_2.jpg';
-import thirdImg from '../../img/photo_3.jpg';
 import { Container } from '../Container/Container';
 
 const ADVANTAGES_LIST = [
