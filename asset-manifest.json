@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/vredina/static/css/main.c11c2312.css",
-    "main.js": "/vredina/static/js/main.4d97274f.js",
+    "main.css": "/vredina/static/css/main.c5b7d655.css",
+    "main.js": "/vredina/static/js/main.87a7f4fe.js",
+    "static/media/banner.png": "/vredina/static/media/banner.bc6a887d97dc0c76a741.png",
     "static/media/JejuMyeongjo-Regular.woff2": "/vredina/static/media/JejuMyeongjo-Regular.3bf641c82a2fd55899de.woff2",
-    "static/media/background.webp": "/vredina/static/media/background.cd724b507e7d37d51442.webp",
-    "static/media/instagram.svg": "/vredina/static/media/instagram.bedab63dacdb4f2f8c7f7d13bfbe96cf.svg",
-    "static/media/email.svg": "/vredina/static/media/email.78eb6fd7afe7ccfa26bcee6db19e233d.svg",
-    "static/media/twitter.svg": "/vredina/static/media/twitter.81fb60f6de4628c411566d8dd3a0c10c.svg",
+    "static/media/pricing.png": "/vredina/static/media/pricing.c3751bdbb870b3713c65.png",
+    "static/media/photo_2.jpg": "/vredina/static/media/photo_2.425cffa9ab070882d7af.jpg",
+    "static/media/photo_1.jpg": "/vredina/static/media/photo_1.f88d8fcdea9cfd23fcfd.jpg",
+    "static/media/photo_3.jpg": "/vredina/static/media/photo_3.3449fa0b207d4b2670a2.jpg",
+    "static/media/logo.png": "/vredina/static/media/logo.ae671fa218fb2b95b738.png",
     "index.html": "/vredina/index.html",
-    "main.c11c2312.css.map": "/vredina/static/css/main.c11c2312.css.map",
-    "main.4d97274f.js.map": "/vredina/static/js/main.4d97274f.js.map"
+    "static/media/wave_mobile.svg": "/vredina/static/media/wave_mobile.6bce97640408b125853f3909d506c72f.svg",
+    "static/media/wave.svg": "/vredina/static/media/wave.bc90129b38b46de0f4548f87a566708f.svg",
+    "main.c5b7d655.css.map": "/vredina/static/css/main.c5b7d655.css.map",
+    "main.87a7f4fe.js.map": "/vredina/static/js/main.87a7f4fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.c11c2312.css",
-    "static/js/main.4d97274f.js"
+    "static/css/main.c5b7d655.css",
+    "static/js/main.87a7f4fe.js"
   ]
 }
