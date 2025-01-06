@@ -17,11 +17,13 @@ export const PricingStyled = styled.section`
   }
   .pricing__title {
     font-weight: 400;
-    font-size: 36px;
+    font-size: 24px;
     color: #000;
     margin-bottom: 32px;
 
     @media (min-width: 568px) {
+      font-size: 36px;
+
       max-width: calc(100% - 305px);
     }
   }

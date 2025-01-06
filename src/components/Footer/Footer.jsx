@@ -1,25 +1,40 @@
-import { FooterStyled, HeaderContent, SocialList } from './Footer.styled';
+import { FooterStyled } from './Footer.styled';
 import { Container } from '../Container/Container';
-
-import { ReactComponent as InstagramIcon } from '../../assets/svg/footer/instagram.svg';
-import { ReactComponent as TwitterIcon } from '../../assets/svg/footer/twitter.svg';
-import { ReactComponent as EmailIcon } from '../../assets/svg/footer/email.svg';
+import { NavLink } from 'react-router-dom';
 
 const DATA = [
   {
-    text: 'nadiia_kv',
-    icon: <InstagramIcon width={40} height={40} />,
-    href: 'https://blog.greenroots.info/3-quick-ways-to-add-fonts-to-your-react-app',
+    title: 'Kontakt & Termin',
+    items: [
+      {
+        text: ' Olena Zhyliaieva',
+      },
+      {
+        text: '01516-2670569',
+        href: 'tel:01516-2670569',
+        options: { target: '_blank' },
+      },
+    ],
   },
   {
-    text: 'Nadiia_KV',
-    icon: <TwitterIcon width={40} height={40} />,
-    href: 'https://blog.greenroots.info/3-quick-ways-to-add-fonts-to-your-react-app',
+    title: 'Ressourcen',
+    items: [
+      {
+        text: 'Nutzungsbedingungen',
+        href: '/terms-and-conditions',
+        options: {},
+      },
+    ],
   },
   {
-    text: '14nadya1997@gmail.com',
-    icon: <EmailIcon width={40} height={40} />,
-    href: 'https://blog.greenroots.info/3-quick-ways-to-add-fonts-to-your-react-app',
+    title: 'Unser Instagram',
+    items: [
+      {
+        text: 'wauwau_groominga',
+        href: 'https://www.instagram.com/wauwau_grooming',
+        options: { target: '_blank', rel: 'noopener noreferrer' },
+      },
+    ],
   },
 ];
 
@@ -27,18 +42,28 @@ export const Footer = () => {
   return (
     <FooterStyled>
       <Container className="container">
-        <HeaderContent>
-          <SocialList>
-            {DATA.map(({ icon, text, href }, index) => (
-              <li>
-                <a href={href} className="hovered">
-                  {icon}
-                  <span>{text}</span>
-                </a>
-              </li>
-            ))}
-          </SocialList>
-        </HeaderContent>
+        <div className="footer-content">
+          {DATA.map(({ title, items }, index) => (
+            <div>
+              <h4 className="footer-title">{title}</h4>
+              <ul className="footer-list">
+                {items.map((item, index) => (
+                  <li>
+                    {!item.href ? (
+                      item.text
+                    ) : /^\//.test(item.href) ? (
+                      <NavLink to={item.href}>{item.text}</NavLink>
+                    ) : (
+                      <a href={item.href} {...item.options}>
+                        {item.text}
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </Container>
     </FooterStyled>
   );

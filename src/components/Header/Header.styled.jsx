@@ -24,7 +24,6 @@ export const HeaderStyled = styled.header`
       flex-direction: row;
       background-size: 100%;
       min-height: 560px;
-      //padding-bottom: 70px;
     }
   }
 
@@ -39,8 +38,13 @@ export const HeaderStyled = styled.header`
       font-family: 'Itim', serif;
       text-align: center;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 16px;
       color: #000;
+      margin-bottom: 16px;
+
+      @media (min-width: 568px) {
+        font-size: 20px;
+      }
 
       @media (min-width: 768px) {
         font-size: 32px;
@@ -58,6 +62,9 @@ export const HeaderStyled = styled.header`
 
     @media (min-width: 568px) {
       flex: 1;
+      margin-left: -20px;
+    }
+    @media (min-width: 768px) {
       margin-left: -40px;
     }
   }

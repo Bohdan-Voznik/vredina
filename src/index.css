@@ -47,7 +47,17 @@ li {
 
 a {
   text-decoration: none;
-  color: #000000;
+  cursor: pointer;
+  color: currentColor;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+img{
+  width: 100%;
+  display: block;
 }
 
 @media (hover: hover) {
