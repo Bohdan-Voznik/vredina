@@ -1,5 +1,5 @@
 import { Container } from 'components/Container/Container';
-import { TermsStyled, Text, Title } from './Terms.styled';
+import { TermsStyled } from './Terms.styled';
 
 export const Terms = () => {
   return (
