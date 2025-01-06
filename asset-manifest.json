@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vredina/static/css/main.c5b7d655.css",
-    "main.js": "/vredina/static/js/main.87a7f4fe.js",
+    "main.css": "/vredina/static/css/main.7e30488e.css",
+    "main.js": "/vredina/static/js/main.1c450bd4.js",
     "static/media/banner.png": "/vredina/static/media/banner.bc6a887d97dc0c76a741.png",
     "static/media/JejuMyeongjo-Regular.woff2": "/vredina/static/media/JejuMyeongjo-Regular.3bf641c82a2fd55899de.woff2",
     "static/media/pricing.png": "/vredina/static/media/pricing.c3751bdbb870b3713c65.png",
@@ -12,11 +12,12 @@
     "index.html": "/vredina/index.html",
     "static/media/wave_mobile.svg": "/vredina/static/media/wave_mobile.6bce97640408b125853f3909d506c72f.svg",
     "static/media/wave.svg": "/vredina/static/media/wave.bc90129b38b46de0f4548f87a566708f.svg",
-    "main.c5b7d655.css.map": "/vredina/static/css/main.c5b7d655.css.map",
-    "main.87a7f4fe.js.map": "/vredina/static/js/main.87a7f4fe.js.map"
+    "static/media/wawe_footer.svg": "/vredina/static/media/wawe_footer.849bbec0024c832ede7f0022d24c06b9.svg",
+    "main.7e30488e.css.map": "/vredina/static/css/main.7e30488e.css.map",
+    "main.1c450bd4.js.map": "/vredina/static/js/main.1c450bd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5b7d655.css",
-    "static/js/main.87a7f4fe.js"
+    "static/css/main.7e30488e.css",
+    "static/js/main.1c450bd4.js"
   ]
 }
